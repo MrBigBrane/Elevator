@@ -81,7 +81,7 @@ void Elevator::ButtonPress(int desFloor, bool user) {
    pair<int, bool> button(desFloor, user); // pair created to store whether the floor selected was selected by the user or not
    
    auto alreadyPressed = find_if( pressedFloors.begin(), pressedFloors.end(), // checks whether the current button selected has already been selected in the elevator using a lambda function
-    [desFloor] (pair<int, bool>& element) { return element.first == desFloor; } );
+    [desFloor] (pair<int, bool> element) { return element.first == desFloor; } );
 
    if(desFloor == currFloor) { // the elevator should not store button presses that lead to the floor that the elevator is already on
       cout << "Passenger has requested to go to the floor they are currently on. Please try again." << endl;
