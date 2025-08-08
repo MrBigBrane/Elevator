@@ -33,9 +33,9 @@ int main() {
     }
   
     elevator.ButtonPress(desFloor, true); // user button press
-    elevator.ButtonPress(rand() % 9 + 1, false); // simulation of random passenger
-    elevator.ButtonPress(rand() % 9 + 1, false); // simulation of random passenger
-    elevator.ButtonPress(rand() % 9 + 1, false); // simulation of random passenger
+    elevator.ButtonPress(rand() % (floors - 1) + 1, false); // simulation of random passenger
+    elevator.ButtonPress(rand() % (floors - 1) + 1, false); // simulation of random passenger
+    elevator.ButtonPress(rand() % (floors - 1) + 1, false); // simulation of random passenger
     elevator.PrintElevatorStatus(); // Provide elevator information
     elevator.Moving(); // Begin elevator transportation process
 
