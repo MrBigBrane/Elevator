@@ -1,6 +1,6 @@
 # Elevator Simulation
 
-This elevator simulation is meant to mimic an individual's experience with a physical elevator including waiting for an elevator, choosing your floor, dealing with other passengers, and more. The simulation can be accessed at https://replit.com/@RandomMaker/Elevator-Simulation?v=1.
+This elevator simulation is meant to mimic an individual's experience with a physical elevator including waiting for an elevator, choosing your floor, dealing with other passengers, and more. The simulation can be accessed at https://replit.com/@RandomMaker/Elevator-Simulation?v=1 where it can be remixed for personal testing and modification.
 
 ## Features
 1. Configurable Elevator: The ```int floors``` variable at the beginning of main.cpp can be altered to support an elevator with however many floors are desired.
